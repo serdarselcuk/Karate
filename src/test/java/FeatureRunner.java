@@ -8,4 +8,8 @@ class FeatureRunner {
         return new Karate().tags("@smoke1").relativeTo(getClass());
     }
 
+    public static void main(String[] args) {
+        System.out.println();
+    }
+
 }
